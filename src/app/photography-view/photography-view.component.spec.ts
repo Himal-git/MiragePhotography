@@ -8,9 +8,8 @@ describe('PhotographyViewComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PhotographyViewComponent ]
-    })
-    .compileComponents();
+      declarations: [PhotographyViewComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

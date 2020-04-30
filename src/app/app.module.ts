@@ -9,9 +9,29 @@ import { EventViewComponent } from './event-view/event-view.component';
 import { ContactViewComponent } from './contact-view/contact-view.component';
 import { AboutViewComponent } from './about-view/about-view.component';
 import { PhotographyViewComponent } from './photography-view/photography-view.component';
+import { FooterComponent } from './common/footer/footer.component';
+import { IntroComponent } from './common/intro/intro.component';
+import { GalleryComponent } from './common/gallery/gallery.component';
+import { VideoComponent } from './common/video/video.component';
+import { TestimonialsComponent } from './common/testimonials/testimonials.component';
+import { AboutMeComponent } from './common/about-me/about-me.component';
+import { NewsComponent } from './common/news/news.component';
 
 @NgModule({
-  declarations: [AppComponent, NavigationComponent, HomeViewComponent, AboutViewComponent, PhotographyViewComponent],
+  declarations: [AppComponent,
+    NavigationComponent,
+    HomeViewComponent,
+    AboutViewComponent,
+    FooterComponent,
+    IntroComponent,
+    GalleryComponent,
+    VideoComponent,
+    TestimonialsComponent,
+    AboutMeComponent,
+    NewsComponent,
+    PhotographyViewComponent
+  
+  ],
   imports: [BrowserModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],
