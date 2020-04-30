@@ -6,9 +6,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavigationComponent } from './common/navigation/navigation.component';
 import { HomeViewComponent } from './home-view/home-view.component';
 import { EventViewComponent } from './event-view/event-view.component';
+import { ContactViewComponent } from './contact-view/contact-view.component';
 
 @NgModule({
-  declarations: [AppComponent, NavigationComponent, HomeViewComponent, EventViewComponent],
+  declarations: [AppComponent, NavigationComponent, HomeViewComponent, EventViewComponent, ContactViewComponent],
   imports: [BrowserModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],
