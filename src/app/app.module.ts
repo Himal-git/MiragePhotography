@@ -17,6 +17,8 @@ import { TestimonialsComponent } from './common/testimonials/testimonials.compon
 import { AboutMeComponent } from './common/about-me/about-me.component';
 import { NewsComponent } from './common/news/news.component';
 import { ResponsePageComponent } from './common/response-page/response-page.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { AppRoutingModule } from './app-routing/app-routing.module';
 
 @NgModule({
   declarations: [AppComponent,
@@ -33,10 +35,11 @@ import { ResponsePageComponent } from './common/response-page/response-page.comp
     AboutMeComponent,
     NewsComponent,
     PhotographyViewComponent,
-    ResponsePageComponent
+    ResponsePageComponent,
+    DashboardComponent
   
   ],
-  imports: [BrowserModule, NgbModule],
+  imports: [BrowserModule, NgbModule, FormsModule, HttpModule, AppRoutingModule,],
   providers: [],
   bootstrap: [AppComponent],
 })
