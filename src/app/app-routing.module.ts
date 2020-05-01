@@ -9,7 +9,7 @@ import { PhotographyViewComponent } from './photography-view/photography-view.co
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'HomeViewComponent',
+    redirectTo: 'HomeView',
     pathMatch: 'full'
   },
   {
