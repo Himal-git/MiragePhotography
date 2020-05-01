@@ -16,14 +16,14 @@ import { VideoComponent } from './common/video/video.component';
 import { TestimonialsComponent } from './common/testimonials/testimonials.component';
 import { AboutMeComponent } from './common/about-me/about-me.component';
 import { NewsComponent } from './common/news/news.component';
-import { ContactDetailsComponent } from './common/contact-details/contact-details.component';
-import { ContactUsComponent } from './common/contact-us/contact-us.component';
 import { ResponsePageComponent } from './common/response-page/response-page.component';
 
 @NgModule({
   declarations: [AppComponent,
     NavigationComponent,
     HomeViewComponent,
+    EventViewComponent,
+    ContactViewComponent,
     AboutViewComponent,
     FooterComponent,
     IntroComponent,
@@ -33,8 +33,6 @@ import { ResponsePageComponent } from './common/response-page/response-page.comp
     AboutMeComponent,
     NewsComponent,
     PhotographyViewComponent,
-    ContactDetailsComponent,
-    ContactUsComponent,
     ResponsePageComponent
   
   ],
