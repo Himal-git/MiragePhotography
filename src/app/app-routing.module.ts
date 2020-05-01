@@ -10,37 +10,33 @@ const routes: Routes = [
   {
     path: '',
     redirectTo: 'HomeViewComponent',
-    pathMatch: 'full'
+    pathMatch: 'full',
   },
   {
     path: 'HomeView',
-    component: HomeViewComponent
+    component: HomeViewComponent,
   },
   {
     path: 'AboutView',
-    component: AboutViewComponent
+    component: AboutViewComponent,
   },
   {
     path: 'ContactView',
-    component: ContactViewComponent
+    component: ContactViewComponent,
   },
   {
     path: 'EventView',
-    component: EventViewComponent
+    component: EventViewComponent,
   },
   {
     path: 'PhotographyView',
-    component: PhotographyViewComponent
-  }
+    component: PhotographyViewComponent,
+  },
 ];
 
 @NgModule({
   declarations: [],
-  imports: [
-    RouterModule.forRoot(routes)
-  ],
-  exports: [
-    RouterModule
-  ]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
