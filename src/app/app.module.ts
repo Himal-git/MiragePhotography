@@ -21,7 +21,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [AppComponent,
+  declarations: [
+    AppComponent,
     NavigationComponent,
     HomeViewComponent,
     EventViewComponent,
@@ -35,10 +36,9 @@ import { RouterModule } from '@angular/router';
     AboutMeComponent,
     NewsComponent,
     PhotographyViewComponent,
-    ResponsePageComponent],
-  imports: [BrowserModule,
-    NgbModule,
-    AppRoutingModule, RouterModule],
+    ResponsePageComponent,
+  ],
+  imports: [BrowserModule, NgbModule, AppRoutingModule, RouterModule],
   providers: [],
   bootstrap: [AppComponent],
 })
